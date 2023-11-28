@@ -53,19 +53,19 @@ pindala=float(2*(a+b))
 print("pindala on", pindala)
 print("ümbermõõt on ", ümbermõõdu)
 
-ülesanne 6
-kütusekulu arvutamine
+# ülesanne 6
+# kütusekulu arvutamine
 
 kutus = (float(input("sisestage tangitud kütuse liitrid ")))
 km = (float(input("sisestage läbitud km  ")))
 kutusekulu = kutus/km*100
 print(f"teie keskmine kutusekulu on {round(kutusekulu,2)}")
 
-ülesanne 7
-rulluisutajad
+# ülesanne 7
+# rulluisutajad
 
-    rulluisutaja keskmine kiirus on 29,9km/h
-    kui kaugele jõuab m minutiga
+# rulluisutaja keskmine kiirus on 29,9km/h
+# kui kaugele jõuab m minutiga
 
 v = 29,9 #km/h
 v = (100/3600)*29.9 #m/s
@@ -73,12 +73,12 @@ s = 60 * v # 60 sec * kiirus
 print(f"rulluisuatjad jõuavad minutiga {round(s,0)} meetrid")
 
 
-ülesanne 8
-ajateisendus
-
-    kasutaja sisestab aja minutites
-    sinu valem leiab ja väljastab tunnid ja minutid
-    näiteks: sisestus 72, vastus 1:12
+# ülesanne 8
+# ajateisendus
+ 
+    # kasutaja sisestab aja minutites
+    # sinu valem leiab ja väljastab tunnid ja minutid
+    # näiteks: sisestus 72, vastus 1:12
 t = int(input("sisestage aja minutites "))
 t1 = t // 60
 t2 =t % 60
